@@ -13,11 +13,17 @@ This project recommends movies based on user sentiment analysis from tweets and 
 - Content-Based Filtering
 - Collaborative Filtering
 
-## Dataset
-- movies.csv – Movie details
-- ratings.csv – User ratings
-- tweets.csv – User tweets
-- users.csv – User information
+## Project Structure
+- dataset/
+  - movies.csv
+  - ratings.csv
+  - tweets.csv
+  - users.csv
+- code/
+  - MovieRecommendation.py
+  - TweetReader.py
+  - run.bat
+- README.md
 
 ## How It Works
 1. Reads user tweets and reviews
@@ -27,7 +33,7 @@ This project recommends movies based on user sentiment analysis from tweets and 
 ## How to Run
 1. Install Python
 2. Install required libraries
-3. Run MovieRecommendation.py or run.bat
+3. Navigate to code and Run MovieRecommendation.py or run.bat
 
 ## Output
 Generates personalized movie recommendations.
